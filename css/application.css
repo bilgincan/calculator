@@ -1,0 +1,62 @@
+#calculator
+{
+  width: 500px;
+  height: auto;
+  position:absolute;
+  left: 500px;
+  top:100px;
+}
+
+#box
+{
+  width:auto;
+  margin: 20px;
+  height: 40px;
+
+}
+
+input
+{
+  width:auto;
+  height:30px;
+}
+
+
+button
+{
+  position:relative;
+  left:50px;
+  width:50px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.zero
+{
+  position: relative;
+  left: 69px;
+}
+
+.equal_to
+{
+  position: relative;
+  top: -47px;
+  left: 2px;
+
+}
+
+.refresh
+{
+  position: relative;
+  top: 0px;
+  left: 140px;
+}
+
+.operators
+{
+  position:relative;
+  margin-top: 0px;
+  margin-left:0px;
+  padding-left:0px;
+}

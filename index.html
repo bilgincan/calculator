@@ -1,0 +1,59 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <link href="css/application.css" rel="stylesheet">
+</head>
+<body>
+  <div id="calculator">
+    <form id="input">
+    <p> <div id="box"> İşlem kutusu:<input id="text" type="text" name="result" value=""> </div>
+    <div id="box">Sonuç kutusu:<input type="text" id="resultBox"> </div></p>
+    </form>
+      <table >
+          <tr>
+          <td>
+              <div class="operators"><button onclick="myFunction(9)" value=+ id="+">+</botton>
+              <button onclick="myFunction(10)" value=- id="-"> -</button>
+              <button onclick="myFunction(11)" value=* id="*">x</button>
+              <button onclick="myFunction(12)" value=/ id="/">/</button></div>
+          </td>
+        </tr>
+        <tr>
+            <td>
+                <button value=1 id="num1" onclick="myFunction(0)">1</button>
+                <button value=2 id="num2" onclick="myFunction(1)">2</button>
+                <button value=3 id="num3" onclick="myFunction(2)">3</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <button value=4 id="num4" onclick="myFunction(3)">4</button>
+                <button value=5 id="num5" onclick="myFunction(4)">5</button>
+                <button value=6 id="num6" onclick="myFunction(5)">6</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button value=7 id="num7" onclick="myFunction(6)">7</button>
+                <button value=8 id="num8" onclick="myFunction(7)">8</button>
+                <button value=9 id="num9" onclick="myFunction(8)">9</button>
+              </td>
+            </tr>
+            <tr>
+            <td>
+                <button onclick="calculate()" id="E">=</button>
+                <button value=0 id="num0" onclick="myFunction(13)">0</button>
+
+
+            </td>
+          </tr>
+    </table>
+      <form id="yenile">
+        <div class="refresh"><button> Değerleri Yenile </button></div>
+      </form>
+      </div>
+        <script src="js/application.js"></script>
+</body>
+</html>
