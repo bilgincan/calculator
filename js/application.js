@@ -21,10 +21,12 @@ function write_operators(i)
 
 function calculate()
 {
+    var result_box = document.getElementById("E").value;
+    document.getElementById("history_box").value+= result_box;
     var result = eval(document.getElementById("text").value);
     document.getElementById("text").value = result;
+    document.getElementById("history_box").value+= result;
 }
-
 
 /*
 function result_history()
