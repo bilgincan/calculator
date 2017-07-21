@@ -15,37 +15,37 @@
           <tr>
           <td>
               <div class="operators">
-              <button value=+ id="+">+</botton>
-              <button  value=- id="-"> -</button>
-              <button value=* id="*">x</button>
-              <button value=/ id="/">/</button></div>
+              <button value=+ id="+" onclick="write_operators(0)">+</botton>
+              <button  value=- id="-" onclick="write_operators(1)"> -</button>
+              <button value=* id="*" onclick="write_operators(2)">x</button>
+              <button value=/ id="/" onclick="write_operators(3)">/</button></div>
           </td>
         </tr>
         <tr>
             <td>
-                <button value=1 id="num1" onclick="myFunction(1)">1</button>
-                <button value=2 id="num2" onclick="myFunction(2)">2</button>
-                <button value=3 id="num3" onclick="myFunction(3)">3</button>
+                <button value=1 id="num1" onclick="write_numbers(1)">1</button>
+                <button value=2 id="num2" onclick="write_numbers(2)">2</button>
+                <button value=3 id="num3" onclick="write_numbers(3)">3</button>
             </td>
           </tr>
           <tr>
             <td>
-                <button value=4 id="num4" onclick="myFunction(4)">4</button>
-                <button value=5 id="num5" onclick="myFunction(5)">5</button>
-                <button value=6 id="num6" onclick="myFunction(6)">6</button>
+                <button value=4 id="num4" onclick="write_numbers(4)">4</button>
+                <button value=5 id="num5" onclick="write_numbers(5)">5</button>
+                <button value=6 id="num6" onclick="write_numbers(6)">6</button>
               </td>
             </tr>
             <tr>
               <td>
-                <button value=7 id="num7" onclick="myFunction(7)">7</button>
-                <button value=8 id="num8" onclick="myFunction(8)">8</button>
-                <button value=9 id="num9" onclick="myFunction(9)">9</button>
+                <button value=7 id="num7" onclick="write_numbers(7)">7</button>
+                <button value=8 id="num8" onclick="write_numbers(8)">8</button>
+                <button value=9 id="num9" onclick="write_numbers(9)">9</button>
               </td>
             </tr>
             <tr>
             <td>
                 <button onclick="calculate()" id="E">=</button>
-                <button value=0 id="num0" onclick="myFunction(0)">0</button>
+                <button value=0 id="num0" onclick="write_numbers(0)">0</button>
 
 
             </td>
