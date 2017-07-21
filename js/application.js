@@ -14,7 +14,7 @@ function write_numbers(i)
 function write_operators(i)
 {
   var num = document.getElementById(operators[i]).value ;
-  document.getElementById("text").value= num;
+  document.getElementById("text").value+= num;
 }
 
 function calculate()
