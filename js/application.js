@@ -9,12 +9,14 @@ function write_numbers(i)
 {
   var num = document.getElementById(numbers[i]).value ;
   document.getElementById("text").value+= num;
+  document.getElementById("history_box").value+= num;
 }
 
 function write_operators(i)
 {
   var num = document.getElementById(operators[i]).value ;
   document.getElementById("text").value+= num;
+  document.getElementById("history_box").value+= num;
 }
 
 function calculate()
@@ -22,3 +24,12 @@ function calculate()
     var result = eval(document.getElementById("text").value);
     document.getElementById("text").value = result;
 }
+
+
+/*
+function result_history()
+{
+  var result = document.getElementById("text").value;
+   document.getElementById("history_box").value+ = result;
+}
+*/
