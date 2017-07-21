@@ -14,11 +14,11 @@ function write_numbers(i)
 function write_operators(i)
 {
   var num = document.getElementById(operators[i]).value ;
-  document.getElementById("text").value= num;
+  document.getElementById("text").value+= num;
 }
 
 function calculate()
 {
     var result = eval(document.getElementById("text").value);
-    document.getElementById("resultBox").value = result;
+    document.getElementById("text").value = result;
 }
