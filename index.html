@@ -9,7 +9,7 @@
   <div id="calculator">
     <form id="input">
     <p> <div id="box"> İşlem kutusu:<input id="text" type="text" name="result" value=""> </div>
-    <div id="box">Sonuç kutusu:<input type="text" id="resultBox"> </div></p>
+    </p>
     </form>
       <table >
           <tr>
@@ -44,13 +44,12 @@
             </tr>
             <tr>
             <td>
-                <button onclick="calculate()" id="E">=</button>
+                <button onclick="calculate()" value="=" id="E" >=</button>
                 <button value=0 id="num0" onclick="write_numbers(0)">0</button>
-
-
             </td>
           </tr>
     </table>
+    <p> Geçmiş:<input id="history_box" type="text" value=""> </p>
       <form id="yenile">
         <div class="refresh"><button> Değerleri Yenile </button></div>
       </form>
