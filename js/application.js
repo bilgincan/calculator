@@ -1,7 +1,3 @@
-//sayı tanımlama
-//var bli = window.prompt("birinci sayı")
-//var two = window.prompt("ikinci sayı")
-
 /*sayıların butonları*/
 var numbers = ["num0","num1","num2","num3","num4","num5","num6","num7","num8","num9"];
 var operators = ["+","-","*","/"]
@@ -28,10 +24,7 @@ function calculate()
     document.getElementById("history_box").value+= result;
 }
 
-/*
-function result_history()
+function refresh()
 {
-  var result = document.getElementById("text").value;
-   document.getElementById("history_box").value+ = result;
+  document.getElementById("text").value = "";
 }
-*/
