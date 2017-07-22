@@ -27,4 +27,5 @@ function calculate()
 function refresh()
 {
   document.getElementById("text").value = "";
+  document.getElementById("history_box").value+= "  ";
 }

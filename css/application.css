@@ -20,7 +20,11 @@ input
   width:auto;
   height:30px;
 }
-
+.history_box
+{
+  width: 350px;
+  height:350px;
+}
 
 button
 {
