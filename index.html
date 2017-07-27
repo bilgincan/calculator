@@ -14,11 +14,10 @@
       <table >
           <tr>
           <td>
-              <div class="operators">
-              <button value=+ id="+" onclick="write_operators(0)">+</botton>
-              <button  value=- id="-" onclick="write_operators(1)"> -</button>
-              <button value=* id="*" onclick="write_operators(2)">x</button>
-              <button value=/ id="/" onclick="write_operators(3)">/</button></div>
+              <button value=+ id="+" onclick="write_operators(0)" class="operators">+</botton>
+              <button value=- id="-" onclick="write_operators(1)" class="operators"> -</button>
+              <button value=* id="*" onclick="write_operators(2)" class="operators">x</button>
+              <button value=/ id="/" onclick="write_operators(3)" class="operators">/</button>
           </td>
         </tr>
         <tr>
@@ -46,12 +45,14 @@
             <td>
                 <button onclick="calculate()" value="=" id="E" >=</button>
                 <button value=0 id="num0" onclick="write_numbers(0)">0</button>
+                <button class="refresh" onclick="refresh()"> Değerleri Yenile </button>
             </td>
           </tr>
     </table>
+  </div>
+    <div id="position_history_box">
     <p> Geçmiş:</p><textarea id="history_box" rows=10 cols=50 value=""> </textarea>
-        <div class="refresh" onclick="refresh()"><button> Değerleri Yenile </button></div>
-      </div>
+  </div>
         <script src="js/application.js"></script>
 </body>
 </html>

@@ -30,6 +30,6 @@ function refresh()
 {
   var br = document.createElement("br");
   document.getElementById("text").value = "";
-  document.getElementById("history_box").value+= " xXx ";
-  document.getElementById("history_box").innerHtML+= br;
+  document.getElementById("history_box").value+= " // ";
+  document.getElementById("history_box").innerHTML+= br;
 }
