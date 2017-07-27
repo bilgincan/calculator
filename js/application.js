@@ -1,6 +1,6 @@
 /*sayıların butonları*/
 var numbers = ["num0","num1","num2","num3","num4","num5","num6","num7","num8","num9"];
-var operators = ["+","-","*","/"]
+var operators = ["+","-","*","/","open_paranthesis","close_paranthesis"]
 function write_numbers(i)
 {
   var num = document.getElementById(numbers[i]).value ;
@@ -28,8 +28,6 @@ function calculate()
 
 function refresh()
 {
-  var br = document.createElement("br");
   document.getElementById("text").value = "";
   document.getElementById("history_box").value+= " // ";
-  document.getElementById("history_box").innerHTML+= br;
 }

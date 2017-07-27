@@ -60,7 +60,7 @@ button
 {
   position: relative;
   top: 50px;
-  left: -108px;
+  left: -190px;
   width:238px;
 }
 
@@ -70,4 +70,9 @@ button
   margin-left: 0px;
   width:56px;
 
+}
+
+.paranthesis
+{
+  width: 37px;
 }
