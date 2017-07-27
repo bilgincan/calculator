@@ -22,10 +22,14 @@ function calculate()
     var result = eval(document.getElementById("text").value);
     document.getElementById("text").value = result;
     document.getElementById("history_box").value+= result;
+
+    console.log(result);
 }
 
 function refresh()
 {
+  var br = document.createElement("br");
   document.getElementById("text").value = "";
-  document.getElementById("history_box").value+= "  ";
+  document.getElementById("history_box").value+= " xXx ";
+  document.getElementById("history_box").innerHtML+= br;
 }
