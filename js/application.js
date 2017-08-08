@@ -38,6 +38,6 @@ $(document).ready(function()
   $(this).css("background-color","orange");
 });
 $("button").mouseleave(function(a){
-  $(this).css("background-color","white");
+  $(this).css("background-color","#b3e6ff");
 });
 });
