@@ -31,3 +31,13 @@ function refresh()
   document.getElementById("text").value = "";
   document.getElementById("history_box").value+= " // ";
 }
+
+$(document).ready(function()
+{
+  $("button").mouseenter(function(e){
+  $(this).css("background-color","orange");
+});
+$("button").mouseleave(function(a){
+  $(this).css("background-color","white");
+});
+});
